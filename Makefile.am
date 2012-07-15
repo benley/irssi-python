@@ -1,4 +1,5 @@
 SUBDIRS = src scripts
+ACLOCAL_AMFLAGS = -I m4
 
 variables:
 	echo @PYTHON_CPPFLAGS@

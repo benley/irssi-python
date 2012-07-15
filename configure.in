@@ -9,6 +9,8 @@ AM_INIT_AUTOMAKE([irssi-python], [test3])
 AM_DISABLE_STATIC
 AM_PROG_LIBTOOL
 
+AC_CONFIG_MACRO_DIR([m4])
+
 # Options
 AC_ARG_WITH(irssi,
 [  --with-irssi=path/to/distro        Specify location of Irssi distribution directory],
