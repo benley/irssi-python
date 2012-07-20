@@ -19,3 +19,7 @@ loafier, 2006-08-20:
 loafier, 2006-08-21:
 	test3
 
+benley, 2012-07-20:
+	Patched to work with irssi 0.8.15
+	Added outputs of libtoolize, aclocal, autoheader, autoconf, automake
+	Pregenerated pyconstants.c
