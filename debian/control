@@ -8,16 +8,9 @@ Homepage: <insert the upstream URL, if relevant>
 #Vcs-Git: git://git.debian.org/collab-maint/irssi-python.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/irssi-python.git;a=summary
 
-Package: irssi-python-dev
-Section: libdevel
-Architecture: any
-Depends: irssi-pythonBROKEN (= ${binary:Version})
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
-Package: irssi-pythonBROKEN
+Package: irssi-python
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: irssi (>= 0.8.15), ${shlibs:Depends}, ${misc:Depends}
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
