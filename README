@@ -14,7 +14,7 @@ Previous cleanup work that I used for references:
 - http://bsg.lericson.se/howto-irssi-python.html
 - http://ftp.frugalware.org/pub/frugalware/frugalware-current/source/network-extra/irssi-python/FrugalBuild
 
-~~~
+***
 
 irssi-python embeds Python into an Irssi module, providing most of the
 functionality of the Perl wrapper to Python scripts using a similar interface.
