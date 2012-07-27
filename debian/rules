@@ -13,4 +13,4 @@
 	dh $@ 
 
 override_dh_auto_configure:
-	dh_auto_configure -- --with-irssi=/home/benley/src/irssi-0.8.15
+	dh_auto_configure -- --with-irssi=/usr/include/irssi
